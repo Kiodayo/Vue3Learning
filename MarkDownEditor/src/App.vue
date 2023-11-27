@@ -1,12 +1,9 @@
 <template></template>
 
-<script>
+<script setup>
+import { marked } from 'marked'
+import { debounce } from 'lodash-es'
+import { ref, computed } from 'vue'
 
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
 </script>
